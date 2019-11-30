@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="Home"
+        android:id="@+id/menu_home"/>
+    <item android:title="Setting"
+        android:id="@+id/menu_setting"/>
+
+    <item android:title="About"
+        android:id="@+id/menu_about"/>
+    <item android:title="Contact"
+        android:id="@+id/menu_contact"/>
+    <item android:title="Share"
+        android:icon="@drawable/ic_share"
+        android:id="@+id/menu_share"
+        app:showAsAction="always"
+        />
+
+</menu>
