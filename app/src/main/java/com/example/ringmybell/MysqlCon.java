@@ -31,7 +31,7 @@ public class MysqlCon {
             Connection con = null;
             try {
                 con = DriverManager.getConnection(
-                        "jdbc:mysql://localhost:3306/sakila", "root", "ABD1mysql.");
+                        "jdbc:mysql://localhost/sakila", "root", "ABD1mysql.");
                 Statement stmt = con.createStatement();
                 ResultSet rs = stmt.executeQuery("select * from sakila.actor");
                 while (rs.next())
