@@ -6,30 +6,7 @@
     android:orientation="vertical"
     tools:context=".StreamActivity">
 
-    <LinearLayout
-        android:layout_width="445dp"
-        android:layout_height="158dp"
-        android:layout_weight="1"
 
-        tools:ignore="MissingConstraints">
-
-        <EditText
-            android:id="@+id/editTextLink"
-            android:layout_width="296dp"
-            android:layout_height="61dp"
-            android:layout_weight="9"
-            android:hint="Enter Website" />
-
-        <Button
-            android:id="@+id/btn_view"
-            android:layout_width="121dp"
-            android:layout_height="67dp"
-            android:layout_weight="1"
-            android:backgroundTint="@color/colorPrimary"
-            android:text="Click"
-            android:textColor="#ffffff"
-            android:textSize="18sp" />
-    </LinearLayout>
 
     <WebView
         android:id="@+id/webview"
