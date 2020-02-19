@@ -27,7 +27,8 @@ public class StreamActivity extends AppCompatActivity {
 
         browser.setWebViewClient(new myWebViewClient());
 
-        String url = "https:www.google.com";
+        String url = "http://169.234.25.31/html/";
+
         browser.getSettings().setLoadsImagesAutomatically(true);
         browser.getSettings().setJavaScriptEnabled(true);
 
